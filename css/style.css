@@ -1,0 +1,33 @@
+.blog{
+	background: #ddd;
+	padding: 5px 0;
+	font-size: 20px;
+}
+
+.blogItem{
+	max-width: 600px;
+	padding: 5px;
+	margin: 20px auto;
+	border: 1px solid black;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.blogItem__cat{
+    flex-grow: 0.5;
+    margin-left: auto;
+    padding: 5px;
+}
+
+.blogItem__dt{
+    flex-grow: 0.5;
+    text-align: right;
+    padding: 5px;
+}
+
+.ib-item {
+    display: inline-block;
+    text-align: center;
+
+}
